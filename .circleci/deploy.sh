@@ -5,7 +5,7 @@
 
 DEPLOY_SUFFIX="${DEPLOY_SUFFIX:--built}"
 GIT_USER="${DEPLOY_GIT_USER:-CircleCI}"
-GIT_EMAIL="${DEPLOY_GIT_EMAIL:-hello@humanmade.com}"
+GIT_EMAIL="${DEPLOY_GIT_EMAIL:-50170696+huubl@users.noreply.github.com}"
 
 BRANCH="${CIRCLE_BRANCH}"
 SRC_DIR="$PWD"
