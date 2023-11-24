@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Publication Checklist
+ * Plugin Name: Publication Checklist (smdzr)
  * Description: Ensure authors meet requirements before publishing.
  * Author: Human Made
  * Author URI: https://humanmade.com/
