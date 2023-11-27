@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Publication Checklist (smdzr) 0.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/publication-"
+"checklist\n"
+"POT-Creation-Date: 2023-11-26T22:43:52+00:00\n"
+"PO-Revision-Date: 2023-11-26 23:57+0100\n"
+"Last-Translator: Smeedijzer Internet\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Domain: altis-publication-checklist\n"
+
+#. Plugin Name of the plugin
+msgid "Publication Checklist (smdzr)"
+msgstr "Publicatie Checklist (smdzr)"
+
+#. Description of the plugin
+msgid "Ensure authors meet requirements before publishing."
+msgstr "Zorg ervoor dat auteurs aan de vereisten voldoen voordat ze publiceren."
+
+#. Author of the plugin
+msgid "Human Made"
+msgstr "Human Made"
+
+#. Author URI of the plugin
+msgid "https://humanmade.com/"
+msgstr "https://humanmade.com/"
+
+#: inc/namespace.php:143
+msgctxt "list table column header"
+msgid "Tasks"
+msgstr "Taken"
+
+#: inc/namespace.php:173
+msgid "All done!"
+msgstr "Geen openstaande taken!"
+
+#: inc/namespace.php:177
+msgid "%d left"
+msgid_plural "%d left"
+msgstr[0] "%d resterend"
+msgstr[1] "%d resterend"
+
+#. translators: %s: number of completed tasks, %s: total number of to-complete tasks
+#: build/index.js:2
+msgid "%s of %s task completed."
+msgid_plural "%s of %s tasks completed."
+msgstr[0] "%s van %s taak voltooid."
+msgstr[1] "%s van %s taken voltooid."
+
+#: build/index.js:2
+msgid "Confirm that you wish to ignore these tasks and update anyway."
+msgstr ""
+
+#: build/index.js:2
+msgid "Confirm that you wish to ignore these tasks and schedule anyway."
+msgstr ""
+
+#: build/index.js:2
+msgid ""
+"Confirm that you wish to ignore these tasks and submit for review anyway."
+msgstr ""
+
+#: build/index.js:2
+msgid "You have incomplete tasks remaining."
+msgstr "Er zijn nog openstaande taken."
+
+#: build/index.js:2
+msgid "This post cannot be published until all required tasks are completed."
+msgstr ""
+
+#: build/index.js:2
+msgid "Optional tasks:"
+msgstr "Optionele taken:"
+
+#: build/index.js:2
+msgid "Skip checks"
+msgstr "Taken overslaan"
+
+#: build/index.js:2
+msgid "Hide tasks"
+msgstr ""
+
+#: build/index.js:2
+msgid "Show tasks"
+msgstr "Toon taken"
+
+#: build/index.js:2
+msgid "Publication Checklist"
+msgstr "Publicatie Checklist"

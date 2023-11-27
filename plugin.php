@@ -5,6 +5,7 @@
  * Author: Human Made
  * Author URI: https://humanmade.com/
  * Version: 0.3.1
+ * Text Domain: altis-publication-checklist
  */
 
 namespace Altis\Workflow\PublicationChecklist;

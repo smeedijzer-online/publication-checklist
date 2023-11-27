@@ -14,11 +14,19 @@ const SCRIPT_ID = 'altis_publication_checklist';
  * Bootstrap.
  */
 function bootstrap() {
+	add_action( 'init', __NAMESPACE__ . '\\load_text_domain' );
 	add_action( 'wp_enqueue_editor', __NAMESPACE__ . '\\enqueue_assets' );
 	add_action( 'rest_api_init', __NAMESPACE__ . '\\register_rest_fields' );
 	add_action( 'plugins_loaded', __NAMESPACE__ . '\\set_up_checks' );
 	add_action( 'manage_posts_columns', __NAMESPACE__ . '\\register_column' );
 	add_action( 'manage_posts_custom_column',  __NAMESPACE__ . '\\render_column' );
+}
+
+/**
+ * Localization
+ */
+function load_text_domain() {
+	load_plugin_textdomain('altis-publication-checklist', false, dirname(plugin_basename(__DIR__)) . '/languages' );
 }
 
 /**
@@ -68,6 +76,7 @@ function enqueue_assets() {
 			'wp-block-editor',
 			'wp-edit-post',
 			'wp-plugins',
+			'wp-i18n',
 		]
 	);
 	wp_enqueue_style(
@@ -78,6 +87,8 @@ function enqueue_assets() {
 	wp_localize_script( SCRIPT_ID, 'altisPublicationChecklist', [
 		'block_publish' => should_block_publish(),
 	] );
+
+	wp_set_script_translations( SCRIPT_ID, 'altis-publication-checklist', plugin_dir_path( __DIR__ ) . 'languages' );
 }
 
 /**

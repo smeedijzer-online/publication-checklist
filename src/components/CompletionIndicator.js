@@ -3,8 +3,6 @@ import { Line } from 'rc-progress';
 
 import { _n, sprintf } from '@wordpress/i18n';
 
-import 'rc-progress/assets/index.css';
-
 const CompletionIndicator = ( { baseClassName, completed, toComplete } ) => {
 	if ( toComplete <= 0 ) {
 		return null;
