@@ -1,0 +1,16 @@
+<?php
+/**
+ * Plugin Name: Publication Checklist (smdzr)
+ * Description: Ensure authors meet requirements before publishing.
+ * Author: Human Made
+ * Author URI: https://humanmade.com/
+ * Version: 0.3.1
+ * Text Domain: altis-publication-checklist
+ */
+
+namespace Altis\Workflow\PublicationChecklist;
+
+require __DIR__ . '/inc/class-status.php';
+require __DIR__ . '/inc/namespace.php';
+
+bootstrap();
