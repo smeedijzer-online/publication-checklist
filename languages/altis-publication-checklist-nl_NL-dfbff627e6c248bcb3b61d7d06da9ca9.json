@@ -1,0 +1,49 @@
+{
+    "translation-revision-date": "2023-11-27 10:26+0100",
+    "generator": "WP-CLI\/2.9.0",
+    "source": "build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "nl",
+                "plural-forms": "nplurals=2; plural=(n != 1);"
+            },
+            "%s of %s task completed.": [
+                "%s van %s taak voltooid.",
+                "%s van %s taken voltooid."
+            ],
+            "Confirm that you wish to ignore these tasks and update anyway.": [
+                "Bevestig dat je deze taken wilt negeren en toch wilt bijwerken."
+            ],
+            "Confirm that you wish to ignore these tasks and schedule anyway.": [
+                "Bevestig dat je deze taken wilt negeren en plan ze toch in."
+            ],
+            "Confirm that you wish to ignore these tasks and submit for review anyway.": [
+                "Bevestig dat je deze taken wilt negeren en toch ter beoordeling wilt indienen."
+            ],
+            "You have incomplete tasks remaining.": [
+                "Er zijn nog openstaande taken."
+            ],
+            "This post cannot be published until all required tasks are completed.": [
+                "Dit bericht kan pas worden gepubliceerd als alle vereiste taken zijn voltooid."
+            ],
+            "Optional tasks:": [
+                "Optionele taken:"
+            ],
+            "Skip checks": [
+                "Taken overslaan"
+            ],
+            "Hide tasks": [
+                "Taken verbergen"
+            ],
+            "Show tasks": [
+                "Taken weergeven"
+            ],
+            "Publication Checklist": [
+                "Publicatie Checklist"
+            ]
+        }
+    }
+}
